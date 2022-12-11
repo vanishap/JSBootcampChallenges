@@ -96,7 +96,7 @@ describe('operator', () => {
   it('returns "divide" if the first number divided by the second equals the third', () => {
     const returnedValue = operator(24, 8, 3);
     expect(returnedValue).to.equal('divide');
-  });
+  }); 
 
   it('returns if none of the other conditions are true', () => {
     const returnedValue = operator(124, 2345, 1);
