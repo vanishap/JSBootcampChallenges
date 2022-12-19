@@ -10,9 +10,9 @@ function factorial(num) {
 }
 
 function stringReverse(str) {
-  let newStr = ' ';
+  let newStr = '';
   for(let i= str.length; i>=0; i--){
-    newStr += str[i]
+    newStr += str[i];
   }
   return newStr;
 }
